@@ -57,8 +57,6 @@
 #define SS3PD2              0x2
 //MASTER
 #define SS3PD3              0x4                      
-//SSI Frame Format Select:
-#define FRF                 0X0
 //SSI Loopback Mode:
 #define LBM                 0x01
 //SSI Synchronous Serial Port Enable:
@@ -71,6 +69,4 @@
 #define TFE                0x1
 //SSI Transmit FIFO Not Full
 #define BSY               0x10
-//SSI Baud Clock Source
-#define System_clock      0x00
 #endif
